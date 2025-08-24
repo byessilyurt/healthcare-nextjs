@@ -44,8 +44,8 @@ export default function DiseaseMultiSelect() {
                         key={d}
                         onClick={() => toggle(d)}
                         className={`px-4 py-2 border rounded-lg transition-all duration-200 font-medium ${selected.includes(d)
-                                ? "bg-blue-600 text-white border-blue-600 shadow-md"
-                                : "bg-white text-gray-700 border-gray-300 hover:border-blue-400 hover:bg-blue-50"
+                            ? "bg-blue-600 text-white border-blue-600 shadow-md"
+                            : "bg-white text-gray-700 border-gray-300 hover:border-blue-400 hover:bg-blue-50"
                             }`}
                     >
                         {d.charAt(0).toUpperCase() + d.slice(1)}
