@@ -9,7 +9,7 @@ An interactive web application that displays healthcare centers across the Unite
 - **Real-time Updates**: Centers update instantly when selecting/deselecting diseases
 - **Responsive Design**: Works seamlessly on desktop and mobile devices
 - **Modern UI**: Clean, professional interface with smooth animations
-- **Comprehensive Coverage**: 75 major healthcare centers across 15+ states
+- **Comprehensive Coverage**: 225 major healthcare centers across all 50 states
 
 ## Technologies Used
 
@@ -74,92 +74,58 @@ src/
 
 ## Data Structure
 
-The application includes **75 major healthcare centers** across the United States, covering 5 disease specialties with 15 centers each:
+The application includes **225 major healthcare centers** across the United States, covering 5 disease specialties with 45 centers each:
 
-### **Diabetes Centers (15)**
+### **Diabetes Centers (45)**
+Comprehensive coverage including:
 - Mayo Clinic (Rochester, MN)
 - UCSF Medical Center (San Francisco, CA)
 - Joslin Diabetes Center (Boston, MA)
-- Cleveland Clinic (Cleveland, OH)
-- Duke Health (Durham, NC)
-- Johns Hopkins Diabetes Center (Baltimore, MD)
-- Mount Sinai Diabetes Center (New York, NY)
-- UCLA Diabetes Center (Los Angeles, CA)
-- University of Michigan Diabetes Center (Ann Arbor, MI)
-- Vanderbilt Diabetes Center (Nashville, TN)
-- University of Washington Diabetes Institute (Seattle, WA)
-- Emory Diabetes Center (Atlanta, GA)
-- University of Texas Diabetes Center (Austin, TX)
-- University of Colorado Diabetes Center (Denver, CO)
-- University of Florida Diabetes Institute (Gainesville, FL)
+- Stanford Diabetes Center (Stanford, CA)
+- Yale Diabetes Center (New Haven, CT)
+- University of Pennsylvania Diabetes Center (Philadelphia, PA)
+- Northwestern Diabetes Center (Chicago, IL)
+- And 38 more centers across all states
 
-### **Asthma Centers (15)**
+### **Asthma Centers (45)**
+Extensive pulmonary medicine coverage including:
 - National Jewish Health (Denver, CO)
 - Johns Hopkins Hospital (Baltimore, MD)
 - Mount Sinai Hospital (New York, NY)
 - UCLA Medical Center (Los Angeles, CA)
-- University of Michigan Health (Ann Arbor, MI)
-- Cleveland Clinic Respiratory Institute (Cleveland, OH)
-- Mayo Clinic Pulmonary Medicine (Rochester, MN)
-- Duke Pulmonary Medicine (Durham, NC)
-- University of Washington Pulmonary Center (Seattle, WA)
-- Emory Asthma Center (Atlanta, GA)
-- University of Texas Pulmonary Institute (Austin, TX)
-- University of Florida Pulmonary Center (Gainesville, FL)
-- Vanderbilt Pulmonary Medicine (Nashville, TN)
-- University of Colorado Pulmonary Center (Denver, CO)
-- University of Arizona Asthma Center (Tucson, AZ)
+- Stanford Pulmonary Medicine (Stanford, CA)
+- Yale Pulmonary Medicine (New Haven, CT)
+- And 39 more centers across all states
 
-### **Cancer Centers (15)**
+### **Cancer Centers (45)**
+Comprehensive cancer care including:
 - MD Anderson Cancer Center (Houston, TX)
 - Memorial Sloan Kettering (New York, NY)
 - Dana-Farber Cancer Institute (Boston, MA)
-- UCSF Helen Diller Family Comprehensive Cancer Center (San Francisco, CA)
-- UCLA Jonsson Comprehensive Cancer Center (Los Angeles, CA)
-- Mayo Clinic Cancer Center (Rochester, MN)
-- Cleveland Clinic Taussig Cancer Institute (Cleveland, OH)
-- Johns Hopkins Sidney Kimmel Cancer Center (Baltimore, MD)
-- Duke Cancer Institute (Durham, NC)
-- University of Michigan Rogel Cancer Center (Ann Arbor, MI)
-- Vanderbilt-Ingram Cancer Center (Nashville, TN)
-- University of Washington Fred Hutchinson Cancer Center (Seattle, WA)
-- Emory Winship Cancer Institute (Atlanta, GA)
-- University of Colorado Cancer Center (Denver, CO)
-- University of Florida Health Cancer Center (Gainesville, FL)
+- Stanford Cancer Institute (Stanford, CA)
+- Yale Cancer Center (New Haven, CT)
+- University of Pennsylvania Abramson Cancer Center (Philadelphia, PA)
+- And 39 more centers across all states
 
-### **Hypertension Centers (15)**
+### **Hypertension Centers (45)**
+Extensive cardiovascular care including:
 - Cleveland Clinic Heart & Vascular Institute (Cleveland, OH)
 - Mayo Clinic Cardiovascular Medicine (Rochester, MN)
 - Johns Hopkins Heart & Vascular Institute (Baltimore, MD)
-- Mount Sinai Heart (New York, NY)
-- UCLA Cardiovascular Center (Los Angeles, CA)
-- Duke Heart Center (Durham, NC)
-- University of Michigan Cardiovascular Center (Ann Arbor, MI)
-- Vanderbilt Heart & Vascular Institute (Nashville, TN)
-- University of Washington Heart Institute (Seattle, WA)
-- Emory Heart & Vascular Center (Atlanta, GA)
-- University of Texas Heart Institute (Austin, TX)
-- University of Florida Heart & Vascular Institute (Gainesville, FL)
-- University of Colorado Heart Institute (Denver, CO)
-- University of Arizona Heart Center (Tucson, AZ)
-- UCSF Heart & Vascular Center (San Francisco, CA)
+- Stanford Cardiovascular Institute (Stanford, CA)
+- Yale Heart & Vascular Center (New Haven, CT)
+- Northwestern Bluhm Cardiovascular Institute (Chicago, IL)
+- And 39 more centers across all states
 
-### **Alzheimer's Centers (15)**
+### **Alzheimer's Centers (45)**
+Comprehensive memory and brain health including:
 - Mass General Hospital (Boston, MA)
 - UCSF Memory and Aging Center (San Francisco, CA)
 - Mayo Clinic Alzheimer's Disease Research Center (Rochester, MN)
-- Johns Hopkins Alzheimer's Disease Research Center (Baltimore, MD)
-- UCLA Alzheimer's and Dementia Care Program (Los Angeles, CA)
-- Duke Memory Disorders Clinic (Durham, NC)
-- University of Michigan Memory Disorders Clinic (Ann Arbor, MI)
-- Vanderbilt Memory & Alzheimer's Center (Nashville, TN)
-- University of Washington Memory & Brain Wellness Center (Seattle, WA)
-- Emory Alzheimer's Disease Research Center (Atlanta, GA)
-- University of Texas Memory Disorders Center (Austin, TX)
-- University of Florida Memory Disorders Clinic (Gainesville, FL)
-- University of Colorado Memory Disorders Clinic (Denver, CO)
-- University of Arizona Memory Disorders Program (Tucson, AZ)
-- Cleveland Clinic Lou Ruvo Center for Brain Health (Cleveland, OH)
+- Stanford Memory Disorders Center (Stanford, CA)
+- Yale Memory Disorders Center (New Haven, CT)
+- University of Pennsylvania Memory Disorders Center (Philadelphia, PA)
+- And 39 more centers across all states
 
 Each center includes:
 - Unique ID
@@ -167,6 +133,17 @@ Each center includes:
 - Center name
 - City and state
 - Geographic coordinates (latitude/longitude)
+
+## Geographic Coverage
+
+The application now provides comprehensive coverage across all 50 states and territories:
+
+- **Northeast**: Massachusetts, New York, Connecticut, Pennsylvania, Maryland, New Jersey, Rhode Island, Vermont, New Hampshire, Maine
+- **Southeast**: North Carolina, South Carolina, Georgia, Florida, Tennessee, Alabama, Mississippi, Arkansas, Louisiana, Kentucky, West Virginia, Virginia
+- **Midwest**: Michigan, Wisconsin, Illinois, Indiana, Ohio, Minnesota, Iowa, Missouri, Kansas, Nebraska, North Dakota, South Dakota
+- **Southwest**: Texas, Oklahoma, New Mexico, Arizona
+- **West Coast**: California, Oregon, Washington, Alaska, Hawaii
+- **Mountain Region**: Colorado, Utah, Nevada, Montana, Wyoming, Idaho
 
 ## API Endpoints
 
